@@ -1,3 +1,4 @@
+
 body { 
     display:flex;
     flex-wrap:wrap;
@@ -11,9 +12,11 @@ body {
     background-color:white;
 } 
 
+
 .leftpanel{
     display:flex;
     align-content:flex-start;
+    gap:5px;
     flex-wrap:wrap;
     width:47%;
     height:auto;
@@ -51,6 +54,23 @@ body {
     display:flex;
     width:100%;
     font-size:1.8rem;
+}
+
+.searchbut1{
+    padding-left:5px;
+    margin-left:5px;
+}
+
+.notfound1{
+    display:flex;
+    width:100%;
+    font-size:1.5rem;
+}
+
+.date1{
+    display:flex;
+    width:100%;
+    font-size:1.5rem;
 }
 
 /* rightpanel items */
