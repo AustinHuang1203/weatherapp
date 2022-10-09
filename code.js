@@ -79,6 +79,7 @@ const initialise = (() => {
 
             }
         })
+        document.getElementById("searchbut1").addEventListener("click",submit);
     }
 
     function submit(){
